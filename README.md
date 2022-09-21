@@ -12,3 +12,4 @@ Host someinternalhost
         Hostname 10.129.0.24
         ProxyCommand ssh appuser@178.154.203.208 nc %h %p
         User appuser
+#
