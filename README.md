@@ -16,3 +16,8 @@ Host someinternalhost
 
 bastion_IP = 178.154.203.208
 someinternalhost_IP = 10.129.0.24
+
+# Деплой тестового приложения
+
+testapp_IP=51.250.82.225
+testapp_port=9292
