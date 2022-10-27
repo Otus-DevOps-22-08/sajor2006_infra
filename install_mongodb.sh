@@ -5,5 +5,15 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 
 apt update && apt install -y mongodb-org
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+systemctl enable --now mongod.service
+systemctl status mongod.service
+=======
 systemctl enable --now mongod
 systemctl status mongod
+>>>>>>> a68ac2bd25ab68bf2344509ba089d2c768102c88
+=======
+systemctl enable --now mongod
+systemctl status mongod
+>>>>>>> c1b75d2 (install_mongodb.sh install_ruby.sh deploy.sh)
