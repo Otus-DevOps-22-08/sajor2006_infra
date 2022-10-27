@@ -19,5 +19,5 @@ someinternalhost_IP = 10.129.0.24
 
 # Деплой тестового приложения
 
-testapp_IP=51.250.82.225
+testapp_IP=158.160.7.123
 testapp_port=9292
