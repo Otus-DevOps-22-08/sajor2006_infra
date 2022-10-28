@@ -21,3 +21,12 @@ someinternalhost_IP = 10.129.0.24
 
 testapp_IP=51.250.82.225
 testapp_port=9292
+
+
+##### Pacer 
+
+# file variable
+packer build -var-file=./variables.json ./ubuntu16.json
+
+# key variable 
+packer build  -var 'aws_access_key=foo' -var 'aws_secret_key=bar' template.json
