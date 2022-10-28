@@ -1,5 +1,0 @@
-{
-	"file_service_account_key": "path/key.json",
-	"image_family":"reddit-base",
-	"folder_id": "specify folder_id"
-}
