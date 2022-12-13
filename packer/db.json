@@ -11,6 +11,7 @@
                     "use_ipv4_nat": true,
                     "subnet_id": "e9b0s0nef25c7c89k425",
                     "platform_id": "standard-v1"
+                    
             }
     ],
     "provisioners": [
