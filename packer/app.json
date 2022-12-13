@@ -9,11 +9,9 @@
             "image_family": "{{user `image_family`}}",
             "ssh_username": "{{user `ssh_username`}}",
             "use_ipv4_nat": "{{user `use_ipv4_nat`}}",
-            "subnet_id": "{{user `subnet_id`}}",
             "platform_id": "{{user `platform_id`}}"
-
         }
-],
+    ],
     "provisioners": [
         {
             "type": "shell",
