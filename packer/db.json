@@ -3,13 +3,13 @@
             {
                     "type": "yandex",
                     "service_account_key_file": "{{user `file_service_account_key`}}",
-                    "folder_id": "b1gv9vqjrqvioeutc9au",
-                    "source_image_family": "ubuntu-1604-lts",
+                    "folder_id": "{{user `folder_id`}}",
+                    "source_image_family": "{{user `source_image_family`}}",
                     "image_name": "{{user `image_family`}}-{{timestamp}}",
                     "image_family": "{{user `image_family`}}",
                     "ssh_username": "ubuntu",
                     "use_ipv4_nat": true,
-                    "subnet_id": "e9b0s0nef25c7c89k425",
+                    "subnet_id": "{{user `subnet_id`}}",
                     "platform_id": "standard-v1"
 
             }
