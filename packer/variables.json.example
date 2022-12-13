@@ -8,6 +8,6 @@
     "mongo_script": "scripts/install_mongodb.sh",
     "reddit_deploy": "scripts/reddit_deploy.sh",
 	"platform_id": "standard-v1",
-	"use_ipv4_nat": true,
+	"use_ipv4_nat": "true",
 	"ssh_username": "ubuntu"
 }
