@@ -7,17 +7,17 @@
             "source_image_family": "{{user `source_image_family`}}",
             "image_name": "{{user `image_family`}}-{{timestamp}}",
             "image_family": "{{user `image_family`}}",
-            "ssh_username": "ubuntu",
-            "use_ipv4_nat": true,
+            "ssh_username": "{{user `ssh_username`}}",
+            "use_ipv4_nat": "{{user `use_ipv4_nat`}}",
             "subnet_id": "{{user `subnet_id`}}",
-            "platform_id": "standard-v1"
+            "platform_id": "{{user `platform_id`}}"
 
         }
 ],
     "provisioners": [
         {
             "type": "shell",
-            "script": "scripts/install_mongodb.sh",
+            "script": "{{user `mongo_script`}}",
             "execute_command": "sudo {{.Path}}"
         }
     ]
