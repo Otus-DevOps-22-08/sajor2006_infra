@@ -1,6 +1,0 @@
-cloud_id         = "b1g3b1b1v0s660vb7dko"
-folder_id        = "b1gv9vqjrqvioeutc9au"
-zone             = "ru-central1-a"
-image_id         = "fd8gffnoerdlibvn7kja"
-private_key_path = "~/.ssh/id_rsa"
-public_key_path  = "~/.ssh/id_rsa.pub"
