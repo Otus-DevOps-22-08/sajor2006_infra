@@ -17,6 +17,7 @@
             "type": "shell",
             "script": "{{user `ruby_script`}}",
             "execute_command": "sudo {{.Path}}"
+            
         }
     ]
 }
