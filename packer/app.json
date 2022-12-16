@@ -7,8 +7,8 @@
             "source_image_family": "{{user `source_image_family`}}",
             "image_name": "{{user `image_app_name`}}",
             "image_family": "{{user `image_family`}}",
-            "ssh_username": "{{user `ssh_username`}}",
             "use_ipv4_nat": "{{user `use_ipv4_nat`}}",
+            "ssh_username": "{{user `ssh_username`}}",
             "platform_id": "{{user `platform_id`}}"
         }
     ],
@@ -17,7 +17,6 @@
             "type": "shell",
             "script": "{{user `ruby_script`}}",
             "execute_command": "sudo {{.Path}}"
-            
         }
     ]
 }
