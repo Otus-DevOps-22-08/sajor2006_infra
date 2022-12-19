@@ -45,3 +45,9 @@ variable db_disk_image {
   description = "Disk image for reddit db"
   default = "reddit-db-base"
 }
+variable "sa_access_key" {
+  description = "Service account access key"
+}
+variable "sa_secret_key" {
+  description = "Service account secret key"
+}
