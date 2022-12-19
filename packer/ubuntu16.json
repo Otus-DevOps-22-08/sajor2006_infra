@@ -2,7 +2,7 @@
         "builders": [
                 {
                         "type": "yandex",
-                        "service_account_key_file": "{{user `file_service_account_key`}}",
+                        "service_account_key_file": "{{user `service_account_key_file`}}",
                         "folder_id": "b1gv9vqjrqvioeutc9au",
                         "source_image_family": "ubuntu-1604-lts",
                         "image_name": "{{user `image_family`}}-{{timestamp}}",
